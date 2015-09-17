@@ -1,16 +1,21 @@
 .high {
-    background-color: lightblue;
+    background-color: red;
+    color: white;
 }
 
-.high {
-    background-color: lightblue;
+.medium {
+    background-color: orange;
+    color: #A52A2A;
 }
 
-.high {
-    background-color: lightblue;
+.low {
+    background-color: gray;
+    color: black;
 }
 
-.high {
-    background-color: lightblue;
+.done {
+    background-color: black;
+    color: #00FFFF;
+    text-decoration: line-through;
 }
 
