@@ -13,7 +13,15 @@
     <option id="low">low</option>
 </select>
 <button onclick="makePage();">New</button>
-
+<script type="text/javascript">
+  makePage = function() {
+   h = document.createElement("p")
+    hcontent = document.createTextNode(#ToDo)
+    h.appendChild(hcontent)
+    document.body.appendChild(h)
+      
+      
+  }
 
 </body>
 </html>
