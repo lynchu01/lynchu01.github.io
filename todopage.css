@@ -10,7 +10,9 @@
     color: green;
 }
 
-body {
-    position: relative;
-    background-color: blue;
+main{
+    background-color: lightblue;
+    height: 100px;
+    width: 400px;
+    margin: 50px;
 }
