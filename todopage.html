@@ -1,18 +1,21 @@
 <html>
-<link rel="stylesheet" type="todopage/css" href="todopage.css">
-<header>
-    <h1>BUSY BUSY</h1>
-</header>
-<body>
- <main class="main"> 
-<label for="ToDo">Enter Task:</label>
-<input type="text" id="ToDo" size="40">
-<select id="priority">
-    <option id="high">High</option>
-    <option id="mid">Medium</option>
-    <option id="low">low</option>
-</select>
-<button onclick="makePage();">New</button>
-</main>
-</body>
+  <header>
+    <link rel=stylesheet href=checklist.css type=text/css />
+  </header>
+  <body>
+    <h1 id="center"> Checklist </h1>
+    <section id="inputbar">
+      <input id="input" value="Enter text here" type="text" size="40">
+      <select id="priority">
+        <option>High</option>
+        <option>Medium</option>
+        <option>Low</option>
+      </select>
+      <button id="add" onclick="addTodo();">Add To-Do</button>
+    </section>
+    <section id="div">
+      <ul id="list"></ul>
+    </section>
+    <script type="text/javascript" src="checklist.js"></script>
+  </body>
 </html>
