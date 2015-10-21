@@ -17,9 +17,11 @@ addTodo = function() {
   document.body.appendChild("#list");
   
 }
+doneTask = function() {
+	if (this.checked) {
+	this.parentNode.classList.add("done")
+	} else {
+		this.parentNoe.classList.remove("done")
+	}
 
-boxChecked = function() {
-  this.parentNode.classList.add("done");
-  mycb.onclick = boxChecked;
-  
 }
