@@ -15,15 +15,15 @@ addTodo = function() {
   myLi.appendChild(licontents);
   myUl.appendChild(myLi);
   document.body.appendChild("#list");
-  localSave("#list");
+  localSave("list");
 }
 doneTask = function() {
 	if (this.checked) {
 	this.parentNode.classList.add("done")
-	localSave("#list");
+	localSave("list");
 	} else {
 		this.parentNoe.classList.remove("done")
-		localSave("#list");
+		localSave("list");
 	}
 
 }
