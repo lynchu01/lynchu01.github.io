@@ -14,7 +14,7 @@ addTodo = function() {
   myLi.appendChild(newIn);
   myLi.appendChild(licontents);
   myUl.appendChild(myLi);
-  localSave("#list")
+  localSave("#list");
   document.body.appendChild("#list");
   
 }
