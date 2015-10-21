@@ -20,6 +20,7 @@ addTodo = function() {
 doneTask = function() {
 	if (this.checked) {
 	this.parentNode.classList.add("done")
+	localSave("#list");
 	} else {
 		this.parentNoe.classList.remove("done")
 		localSave("#list");
