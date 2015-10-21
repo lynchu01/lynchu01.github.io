@@ -1,5 +1,5 @@
 body {
-  background-color: purple;
+  background-color: blue;
   font-family: Arial, sans-serif;
 }
 
@@ -8,12 +8,12 @@ h1 {
 }
 
 section {
-  background-color: teal;
+  background-color: white;
 }
 
 #inputbar {
   text-align: center;
-  width: 400px;
+  width: 475px;
   height: 25px;
   margin-left: auto;
   margin-right: auto;
