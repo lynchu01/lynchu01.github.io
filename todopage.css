@@ -19,7 +19,8 @@ section {
   margin-right: auto;
 }
 
-main {
+#main {
+  text-align: center;
   width: 500px;
   height: 400px;
   position: center;
