@@ -1,10 +1,12 @@
+
 html,
 body {
     height: 100%;
 }
 
 body {
-    padding-top: 50px; 
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
 
 .img-portfolio {
     margin-bottom: 30px;
@@ -37,6 +39,25 @@ header.carousel .fill {
 
 .error-404 {
     font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
 }
 
 /* Footer Styles */
